@@ -4,6 +4,6 @@ COPY . /app
 
 WORKDIR /app
 
-RUN pip install -e .
+RUN pip install .
 
 CMD ["periodical_speedtest"]
