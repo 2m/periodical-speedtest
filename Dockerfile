@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN pip install .
 
-CMD ["periodical_speedtest"]
+CMD ["periodical-speedtest"]
