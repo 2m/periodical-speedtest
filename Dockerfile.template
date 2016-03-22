@@ -1,4 +1,4 @@
-FROM resin/raspberrypi-python:3.5.1-slim
+FROM resin/%%RESIN_MACHINE_NAME%%-python:3.5.1-slim
 
 COPY . /app
 
