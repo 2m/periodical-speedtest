@@ -22,3 +22,8 @@ Run all of the unit tests and style checks:
 Run the program in an isolated development Python 3.5 environment:
 
     python setup.py test -a "-epy35 'periodical-speedtest'"
+
+Hardware
+========
+
+When running speedest on Raspberry Pi 1 only ~30mbps is reported on the 100mbps connection. When upgraded to Raspberry Pi 3, tests started reporting ~90mbps. It looks like there is a hardware limitation on Raspberry Pi 1 which does not allow to fully utilize 100mbps network link.
