@@ -24,5 +24,5 @@ setup(
 
     license='Apache 2',
     description='Periodical ISP performance test',
-    url='https://github.com/samanos/periodical-speedtest',
+    url='https://github.com/2m/periodical-speedtest',
 )
